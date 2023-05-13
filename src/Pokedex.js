@@ -3,7 +3,7 @@ import "./Pokedex.css";
 import React, { Component } from "react";
 
 class Pokedex extends Component {
-  //  poxedex objects for each pokemon
+  //  poxedex objects for each pokemon with id
   static defaultProps = {
     pokemon: [
       { id: 4, name: "Charmander", type: "fire", base_experience: 62 },
